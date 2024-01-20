@@ -26,8 +26,8 @@ function Blog() {
         </div>
         <div className='course-div2'>
             <div className='java-content'>
-                <h1>Angular JS Advance Learning Course</h1>
-                <p>Angular JS is a popular open-source web application framework developed and maintained by Google. It is written in TypeScript and allows developers to build dynamic, single-page web applications (SPAs). Angular provides a structured framework for creating robust and scalable front-end applications, facilitating the development process and maintenance. <a href="https://en.wikipedia.org/wiki/AngularJS">Read more...</a></p>
+                <h1>Spoken English</h1>
+                <p>Spoken English: English is one of the widely spoken language in the world. Hence, to be successful in life, you need to have a good command over it. Speaking English proficiently is an art which is independent of your writing abilities in the language. You will often come across individuals possessing a flair for writing but still struggling in spoken English. Even after seeking quality education from schools where the medium of teaching is English, many students can’t use the language in public. <a href="https://leverageedu.com/blog/spoken-english//">Read more...</a></p>
                 <div className='person-read'>
                     <img src="https://cdn.pixabay.com/photo/2014/07/09/10/04/man-388104_640.jpg" width={"50px"} alt="person-image" />
                     <div>
@@ -37,17 +37,17 @@ function Blog() {
                 </div>
             </div>
             <div className='image-div'>
-              <img src="https://cdn.educba.com/academy/wp-content/uploads/2020/01/angular-js-service.jpg" alt="javascriptImage" />
+              <img src='https://blogassets.leverageedu.com/blog/wp-content/uploads/2020/05/05011631/How-to-Learn-Spoken-English_.png' alt="javascriptImage" />
             </div>
         </div>
         <div className='course-div'>
             <div className='image-div'>
-              <img src="https://insights.radix.ai/hubfs/1597179_BlogHeaderIllustration_2_032023.jpg#keepProtocol" alt="javascriptImage" />
+              <img src="https://wpassets.adda247.com/wp-content/uploads/multisite/sites/5/2023/03/03144122/maxresdefault-4-1-1024x477.jpg" alt="javascriptImage" />
             </div>
             <div className='java-content'>
-                <h1>How to Learn React</h1>
+                <h1>Current Affairs</h1>
                 <p>
-                   React is an open-source JavaScript library developed and maintained by Facebook. It is primarily used for building user interfaces for single-page applications where components are created and managed efficiently. React follows a declarative approach, allowing developers to describe how the user interface should look based on the application's state, and it automatically updates and renders the components when the state changes. <a href="https://en.wikipedia.org/wiki/React_(software)">Read more...</a>
+                Current affairs are the world’s happenings, quite literally the current affairs of the world. It refers to every single thing currently taking place in the world right now, and the people well versed in it are incredibly knowledgable and well-read. It is incredibly vital for all the aspirants of the Kerala Public Service Commission (Kerala PSC) to make good note of the current affairs taking place in the world. To be in public service, one must be fully aware of our surroundings, immediate, national and even international. <a href="https://www.gktoday.in/current-affairs/month/current-affairs-january-2024/">Read more...</a>
                 </p>
                 <div className='person-read'>
                     <img src="https://i.pinimg.com/originals/f8/93/c7/f893c7e1abe5b076eaee7c58223329e5.png" width={"50px"} alt="person-image" />
