@@ -3,6 +3,7 @@ import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 
 import { Blog } from './Blogs';
+import { HomePage } from '../Pages/HomePage';
 
 
 
@@ -11,6 +12,7 @@ function AllRoutes() {
     <Routes>
       
 
+<Route path="/" element={<HomePage />} />
            <Route path="/blogs" element={<Blog />} />
     </Routes>
   );
