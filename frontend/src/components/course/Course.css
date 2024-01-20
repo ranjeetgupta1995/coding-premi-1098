@@ -1,0 +1,28 @@
+
+.courseContainer {
+    width: 480px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+.description {
+    text-align: left;
+}
+
+#numberOfVideos {
+    font-size: smaller;
+}
+
+/* --------------------Course-------------------------------- */
+
+.courses {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
