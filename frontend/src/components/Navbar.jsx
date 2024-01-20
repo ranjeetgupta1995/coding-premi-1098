@@ -10,8 +10,8 @@ const Navbar = () => {
         <CenterSection>
           <NavLinks>
             <a href="/">Home</a>
-            <a href="/about">About</a>
-            <a href="/blogs">Blog</a>
+            <a href="/about">About Us</a>
+            <a href="/blogs">Blogs</a>
             <a href="/contact">Contact</a>
           </NavLinks>
         </CenterSection>
