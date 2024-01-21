@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
       <NavbarWrapper>
         <LeftSection>
-            <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT-c5NJJSxHqPEZhZrlnwiUUkY5smYZ4GVseIXPJb8nBoua1t_r" alt="" />
+            <img style={{borderRadius: "5%"}} src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT-c5NJJSxHqPEZhZrlnwiUUkY5smYZ4GVseIXPJb8nBoua1t_r" alt="" />
         </LeftSection>
         <CenterSection>
           <NavLinks>
@@ -64,6 +64,7 @@ const NavLinks = styled.div`
     text-decoration: none;
     font-weight: bold;
     padding: 0.5rem;
+    /* border-radius: 10%; */
 
     &:hover {
       background-color: lightgray;
@@ -90,6 +91,7 @@ const AuthButtons = styled.div`
     cursor: pointer;
     font-weight: bold;
     padding: 0.5rem;
+    /* border-radius: 10%; */
 
     &:hover {
       background-color: lightgray;
