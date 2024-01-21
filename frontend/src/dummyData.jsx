@@ -6,6 +6,7 @@ export const courses = [
         number_of_videos: 44,
         likes: 520,
         comments: 192,
+        views: 563,
     },
     {
         id: 2,
@@ -14,6 +15,7 @@ export const courses = [
         number_of_videos: 6,
         likes: 650,
         comments: 320,
+        views: 784,
     },
     {
         id: 3,
@@ -22,6 +24,7 @@ export const courses = [
         number_of_videos: 22,
         likes: 340,
         comments: 122,
+        views: 562,
     },
     {
         id: 4,
@@ -30,6 +33,7 @@ export const courses = [
         number_of_videos: 10,
         likes: 250,
         comments: 152,
+        views: 841,
     },
     {
         id: 5,
@@ -38,6 +42,7 @@ export const courses = [
         number_of_videos: 6,
         likes: 452,
         comments: 160,
+        views: 400,
     },
     {
         id: 6,
@@ -46,6 +51,7 @@ export const courses = [
         number_of_videos: 11,
         likes: 410,
         comments: 181,
+        views: 900,
     },
     {
         id: 7,
@@ -54,6 +60,7 @@ export const courses = [
         number_of_videos: 2,
         likes: 470,
         comments: 142,
+        views: 841,
     },
     {
         id: 8,
@@ -62,6 +69,7 @@ export const courses = [
         number_of_videos: 8,
         likes: 421,
         comments: 123,
+        views: 632,
     },
     {
         id: 9,
@@ -70,6 +78,7 @@ export const courses = [
         number_of_videos: 7,
         likes: 420,
         comments: 192,
+        views: 654,
     },
     {
         id: 10,
@@ -78,6 +87,7 @@ export const courses = [
         number_of_videos: 24,
         likes: 580,
         comments: 172,
+        views: 567,
     },
     {
         id: 11,
@@ -86,6 +96,7 @@ export const courses = [
         number_of_videos: 24,
         likes: 670,
         comments: 222,
+        views: 952,
     },
     {
         id: 12,
@@ -94,5 +105,6 @@ export const courses = [
         number_of_videos: 7,
         likes: 420,
         comments: 213,
+        views: 568,
     },
 ]

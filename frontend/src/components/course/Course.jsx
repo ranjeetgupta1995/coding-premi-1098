@@ -9,7 +9,7 @@ const Course = () => {
     <div className="courses">
       {courses.map((el) => (
         <div>
-            <CourseCard video={el.video} number_of_videos={el.number_of_videos} title={el.title} likes={el.likes} comments={el.comments} />
+            <CourseCard video={el.video} number_of_videos={el.number_of_videos} title={el.title} likes={el.likes} comments={el.comments} views={el.views} />
         </div>
       ))}
     </div>
