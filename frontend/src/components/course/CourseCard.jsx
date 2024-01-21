@@ -11,7 +11,7 @@ const CourseCard = ({video, title, number_of_videos, likes, comments, views}) =>
         </div>
         <div className="description">
             <h4 style={{marginLeft: "10px"}}>{title}<span id="numberOfVideos"> ({number_of_videos} videos)</span></h4>
-            <div style={{display: "flex", justifyContent: "space-between", marginLeft: "10px", marginRight: "10px"}}>
+            <div style={{display: "flex", justifyContent: "space-between", marginLeft: "5px", marginRight: "10px"}}>
                 <h4>👍 {likes}</h4>
                 <h4>💬 {comments}</h4>
                 <h4>👁️‍🗨️ {views}</h4>
