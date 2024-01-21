@@ -2,6 +2,7 @@
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import AllRoutes from './components/AllRoutes';
+import Course from './components/course/Course';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         {/* You can add a header or other common components here */}
         <AllRoutes />
         {/* You can add a footer or other common components here */}
+        <Course />
       </div>
 
   );
