@@ -4,14 +4,16 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
+import { ClerkProvider } from '@clerk/clerk-react'
 
-
+ import "./styles.css"
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
-  
+  <ClerkProvider publishableKey={"pk_test_aHVtb3JvdXMtYnVsbC02Ny5jbGVyay5hY2NvdW50cy5kZXYk"}>
     <App />
+  </ClerkProvider>
    
   </BrowserRouter>
 );

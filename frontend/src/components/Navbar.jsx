@@ -18,8 +18,8 @@ const Navbar = () => {
         </CenterSection>
         <RightSection>
           <AuthButtons>
-            <button>Login</button>
-            <button>Sign Up</button>
+          <a href="/LoginPage">LoginPage</a>
+          <a href="/SignUpPage">SignUpPage</a>
           </AuthButtons>
         </RightSection>
       </NavbarWrapper>
