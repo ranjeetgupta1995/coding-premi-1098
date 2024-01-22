@@ -1,0 +1,153 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100wh;
+  font-family: "outfit";
+}
+.banner {
+  margin-top: 100px;
+  width: 80wh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 350px;
+}
+.banner > div > h1 {
+  font-size: 60px;
+  font-weight: 700;
+  font-family: sans-serif;
+  padding-top: 150px;
+  opacity: 0.8;
+}
+
+.origin {
+  width: 100wh;
+  margin-top: 150px;
+  text-align: center;
+}
+.origin h1 {
+  font-size: 50px;
+  font-weight: 700;
+  font-family: sans-serif;
+  padding-bottom: 50px;
+}
+
+.origin > div > p {
+  font-size: 25px;
+  font-family: sans-serif;
+  padding-bottom: 100px;
+  opacity: 1;
+  padding: 0 15px;
+  margin-bottom: 50px;
+}
+.contact_container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: linear-gradient(#ffdad5, #fff7f9);
+}
+.contact_left {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+
+.contact_left_title h2 {
+  font-weight: 600;
+  color: #a363aa;
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+.contact_left_title hr {
+  border: none;
+  width: 120px;
+  height: 5px;
+  background-color: #a363aa;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.contact_input {
+  width: 400px;
+  height: 50px;
+  outline: none;
+  border: none;
+  padding-left: 25px;
+  font-weight: 500;
+  color: #666;
+  border-radius: 50px;
+}
+
+.contact_left textarea {
+  height: 140px;
+  border-radius: 20px;
+  padding-top: 15px;
+}
+
+.contact_input:focus {
+  border: 2px solid #ff994f;
+}
+
+.contact_input::placeholder {
+  color: #a9a9a9;
+}
+.contact_left button {
+  display: flex;
+  align-items: center;
+  padding: 15px 30px;
+  font-size: 16px;
+  color: #fff;
+  gap: 10px;
+  border: none;
+  border-radius: 50px;
+  background: linear-gradient(270deg, #ff994f, #fa6d86);
+  cursor: pointer;
+}
+.contact_left button img {
+  height: 15px;
+}
+
+.contact_right img {
+  width: 500px;
+}
+
+@media (max-width: 977px) {
+  .contact_input {
+    width: 80wh;
+  }
+  .contact_right {
+    display: none;
+  }
+}
+@media (max-width: 977px) {
+  .contact_input {
+    width: 80wh;
+  }
+  .contact_right {
+    display: none;
+  }
+}
+@media (max-width: 977px) {
+  .banner {
+    margin-top: 100px;
+    width: 60wh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 400px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin-bottom: 100px;
+    display: none;
+  }
+  .origin {
+    margin-top: 300px;
+    display: none;
+  }
+}
