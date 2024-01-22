@@ -13,7 +13,7 @@
 
  <h3>logo :"EduSync"</h3>
 
- <img width="300" height="300" alt="Screenshot_110" src="./frontend/src/Assets/logo_png.png"> 
+ <img width="300" height="300" alt="Screenshot_110" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT-c5NJJSxHqPEZhZrlnwiUUkY5smYZ4GVseIXPJb8nBoua1t_r"> 
 
  ## 🌐 Deployed Link : 
 
