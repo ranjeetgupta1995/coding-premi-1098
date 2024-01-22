@@ -13,7 +13,7 @@
 
  <h3>logo :"EduSync"</h3>
 
- <img width="300" height="300" alt="Screenshot_110" src="https://github.com/Anburaj07/deluxe-change-1738/assets/123880321/3e7a08b8-26c1-40a4-bee9-24e144fe7755"> 
+ <img width="300" height="300" alt="Screenshot_110" src="./frontend/src/Assets/logo_png.png"> 
 
  ## 🌐 Deployed Link : 
 
@@ -44,8 +44,8 @@ Rest assured, your personal information is safeguarded with the highest level of
 
 # Different Pages of Website
 ### Homepage
-<img width="950" alt="Screenshot_110" src="https://github.com/Anburaj07/deluxe-change-1738/assets/123880321/88add8c2-b5b4-46fb-9e52-d8c0dd382664">
-<img width="950" alt="Screenshot_117" src="https://github.com/Anburaj07/deluxe-change-1738/assets/123880321/9af84f84-074c-473f-bde1-f8c7596d7c44">
+<img width="950" alt="Screenshot_110" src="./frontend/src/Assets/homepage.png">
+<!-- <img width="950" alt="Screenshot_117" src="https://github.com/Anburaj07/deluxe-change-1738/assets/123880321/9af84f84-074c-473f-bde1-f8c7596d7c44"> -->
 
 
 ### Register/Login
@@ -54,15 +54,7 @@ Rest assured, your personal information is safeguarded with the highest level of
 
 
 ### Courses
-<img width="950" alt="Screenshot_114" src="https://github.com/Anburaj07/deluxe-change-1738/assets/123880321/3918b565-415e-4a82-a76e-adb4ce506948">
-
-
-### Single Course
-<img width="950" alt="Screenshot_113" src="https://github.com/Anburaj07/deluxe-change-1738/assets/123880321/dce5a5a4-ea3e-48df-8d4f-df9b8da2b294">
-
-
-### Shopping Cart
-<img width="950" alt="Screenshot_115" src="https://github.com/Anburaj07/deluxe-change-1738/assets/123880321/088a1a14-b02a-4698-a31c-0fa1c3fadc39">
+<img width="950" alt="Screenshot_114" src="./frontend/src/Assets/course.png">
 
 
 
