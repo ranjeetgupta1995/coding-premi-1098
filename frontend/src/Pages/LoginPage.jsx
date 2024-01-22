@@ -1,5 +1,5 @@
-import axios from 'axios';
-import React, { useState } from 'react';
+import axios from "axios";
+import React, { useEffect, useState } from "react";
 import {
   Box,
   Button,
@@ -9,6 +9,7 @@ import {
   VStack,
   Link as ChakraLink,
 } from "@chakra-ui/react";
+import { Navigate } from "react-router-dom";
 
 const LoginPage = () => {
   const initial = {
@@ -17,6 +18,7 @@ const LoginPage = () => {
   };
 
   const [form, setForm] = useState(initial);
+  const [isAuth, setToken] = useState(localStorage.getItem("token") || "");
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
@@ -27,12 +29,14 @@ const LoginPage = () => {
     if (form.password.length === 0 || form.email.length === 0) {
       alert("Fill Your Login Form Properly!");
     } else {
-      axios.post("https://good-pear-hippo-ring.cyclic.app/users/login", form)
-        .then(res => {
+      axios
+        .post("https://good-pear-hippo-ring.cyclic.app/users/login", form)
+        .then((res) => {
           alert(res.data.msg);
           localStorage.setItem("token", res.data.token);
+          setToken(localStorage.getItem("token"));
         })
-        .catch(error => {
+        .catch((error) => {
           alert("Login failed. Please check your credentials.");
         });
 
@@ -41,6 +45,10 @@ const LoginPage = () => {
   };
 
   const { password, email } = form;
+
+  if (isAuth) {
+    return <Navigate to="/course" replace={true} />;
+  }
 
   return (
     <Box
