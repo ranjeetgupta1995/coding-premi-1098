@@ -1,45 +1,55 @@
-import React from 'react';
-import styled from "styled-components"
+import React, { useEffect, useState } from "react";
+import styled from "styled-components";
+import Logout from "./logout";
 
 const Navbar = () => {
-    return (
-      <NavbarWrapper>
-        <LeftSection>
-            <img style={{borderRadius: "5%"}} src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT-c5NJJSxHqPEZhZrlnwiUUkY5smYZ4GVseIXPJb8nBoua1t_r" alt="" />
-        </LeftSection>
-        <CenterSection>
-          <NavLinks>
-            <a href="/">Home</a>
-            <a href="/course">Course</a>
-            <a href="/blogs">Blogs</a> 
-            <a href="/contact">Contact</a>
-            <a href="/about">About Us</a>
-           
-          </NavLinks>
-        </CenterSection>
-        <RightSection>
-          <AuthButtons>
-          <a href="/login">Login</a>
-          <a href="/signup">SignUp</a>
-          </AuthButtons>
-        </RightSection>
-      </NavbarWrapper>
-    );
-  };
-  
-  export default Navbar;
+  const [isAuth, setAuth] = useState(localStorage.getItem("token") || "");
 
-  const LeftSection = styled.div`
-  img{
+  useEffect(() => {
+    setAuth(() => {
+      return localStorage.getItem("token");
+    });
+  }, [isAuth]);
+  return (
+    <NavbarWrapper>
+      <LeftSection>
+        <img
+          style={{ borderRadius: "5%" }}
+          src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT-c5NJJSxHqPEZhZrlnwiUUkY5smYZ4GVseIXPJb8nBoua1t_r"
+          alt=""
+        />
+      </LeftSection>
+      <CenterSection>
+        <NavLinks>
+          <a href="/">Home</a>
+          <a href="/course">Course</a>
+          <a href="/blogs">Blogs</a>
+          <a href="/contact">Contact</a>
+          <a href="/about">About Us</a>
+        </NavLinks>
+      </CenterSection>
+      <RightSection>
+        <AuthButtons>
+          {!isAuth ? <a href="/login">Login</a> : <Logout />}
+          {!isAuth ? <a href="/signup">SignUp</a> : ""}
+        </AuthButtons>
+      </RightSection>
+    </NavbarWrapper>
+  );
+};
+
+export default Navbar;
+
+const LeftSection = styled.div`
+  img {
     height: 50px;
     margin-top: 3%;
     margin-left: 5%;
     align-content: center;
   }
-  `
+`;
 
-
-  const NavbarWrapper = styled.nav`
+const NavbarWrapper = styled.nav`
   background-color: #333;
   /* padding: 0.3rem; */
   display: flex;
@@ -47,7 +57,6 @@ const Navbar = () => {
   align-items: center;
   position: sticky;
   width: 100%;
-
 `;
 
 const CenterSection = styled.div`
@@ -60,7 +69,8 @@ const NavLinks = styled.div`
   display: flex;
   gap: 1rem;
 
-  a {
+  a,
+  button {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
@@ -83,9 +93,9 @@ const RightSection = styled.div`
 const AuthButtons = styled.div`
   display: flex;
   gap: 1rem;
-  
 
-  a {
+  a,
+  button {
     color: #fff;
     background-color: transparent;
     border: none;
