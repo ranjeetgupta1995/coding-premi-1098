@@ -81,7 +81,7 @@ export const ContactPage = () => {
           <textarea
             type="text"
             name="message"
-            placeholder="Your name"
+            placeholder="message..."
             className={style.contact_input}
             required
           />
