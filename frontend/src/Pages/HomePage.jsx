@@ -1,6 +1,9 @@
 
 import React from "react";
 import styled from "styled-components"
+import "@fortawesome/fontawesome-svg-core/styles.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCheck, faPlay } from "@fortawesome/free-solid-svg-icons";
 
 export const HomePage= ()=>{
 
@@ -28,6 +31,72 @@ export const HomePage= ()=>{
         </div>
 
         <hr />
+        
+
+        <div className="learning-section">
+        <div className="learning-left">
+          <img src="https://images.unsplash.com/photo-1531545514256-b1400bc00f31?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+        </div>
+        <div className="learning-right">
+          <div className="learning-right-heading">
+            <h1>
+              Enhance Your Learning with us <br />
+              From Any Where
+            </h1>
+          </div>
+          <div className="learning-right-paragraph">
+            <p>
+             Unleash the potential of remote education with us,
+              <br /> where 'anywhere' becomes the classroom for 
+              <br />
+              boundless knowledge enrichment.
+            </p>
+          </div>
+
+          <div className="learning-right-ticks">
+            <div className="ticks-cover">
+              <div className="ticks ticks-red">
+                <FontAwesomeIcon
+                  icon={faCheck}
+                  style={{ color: "ffffff", fontSize: "20px" }}
+                />
+              </div>
+              <p>Expert Trainer</p>
+            </div>
+
+            <div className="ticks-cover ">
+              <div className="ticks ticks-green">
+                <FontAwesomeIcon
+                  icon={faCheck}
+                  style={{ color: "ffffff", fontSize: "20px" }}
+                />
+              </div>
+              <p>Great Result</p>
+            </div>
+            <div className="ticks-cover">
+              <div className="ticks ticks-light-blue">
+                <FontAwesomeIcon
+                  icon={faCheck}
+                  style={{ color: "ffffff", fontSize: "20px" }}
+                />
+              </div>
+              <p>Online Learning</p>
+            </div>
+            <div className="ticks-cover">
+              <div className="ticks ticks-dark-blue">
+                <FontAwesomeIcon
+                  icon={faCheck}
+                  style={{ color: "ffffff", fontSize: "20px" }}
+                />
+              </div>
+              <p>Life Time Access</p>
+            </div>
+          </div>
+          <div>
+            <button className="extra_big_dark_button">Dicover More</button>
+          </div>
+        </div>
+      </div>
         
         </DIV>
     )
@@ -86,7 +155,7 @@ h1{
 }
 #gif button{
     text-align: center;
-    width: 17%;
+    width: 20%;
     margin: auto;
     margin-left: 40%;
     padding: 0.5rem;
@@ -104,4 +173,77 @@ h1{
     width: 90%;
     height: 400px;
 }
+
+
+.learning-section{
+        width : 90%;
+        margin: auto;
+        display : flex;
+
+    }
+    .learning-left{
+        width : 50%;
+        margin: 1.5rem;
+        padding: 2%;
+
+    }
+    .learning-left img{
+        width : 100%;
+    }
+    .learning-right{
+        width : 50%;
+        display : flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: 2rem;
+        
+    }
+    .learning-right-heading h1{
+        font-weight : 500;
+    }
+    .learning-right-paragraph p{
+        font-size : 18px;
+        text-align: center;
+    }
+    .learning-right-ticks{
+        display : grid;
+        grid-template-columns : repeat(2,1fr); 
+        gap : 1rem;
+        margin-left: 4%;
+    }
+    .ticks-cover{
+        display : flex;
+        align-items : center;
+    }
+    .ticks{
+        display : flex;
+        align-items : center;
+        padding : 1rem;
+        border-radius : 100px; 
+    }
+    .ticks-cover p{
+        margin : 0 1rem;
+    }
+    .ticks-red{
+        background-color : #f23f3c;
+    }
+    .ticks-green{
+        background-color : #0fae53;
+    }
+    .ticks-light-blue{
+        background-color : #0c81c7;
+    }
+    .ticks-dark-blue{
+        background-color : #135e98;
+    }
+    .extra_big_dark_button{
+        padding-top: 2%;
+        margin-top: 2%;
+        margin-left: 30%;
+        background-color: #333;
+    }
+    .extra_big_dark_button:hover{
+        background-color: lightgray;
+        color: black;
+    }
 `
