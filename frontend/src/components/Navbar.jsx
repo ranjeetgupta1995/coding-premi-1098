@@ -10,16 +10,17 @@ const Navbar = () => {
         <CenterSection>
           <NavLinks>
             <a href="/">Home</a>
-            <a href="/about">About Us</a>
-            <a href="/blogs">Blogs</a>
-            <a href="/contact">Contact</a>
             <a href="/course">Course</a>
+            <a href="/blogs">Blogs</a> 
+            <a href="/contact">Contact</a>
+            <a href="/about">About Us</a>
+           
           </NavLinks>
         </CenterSection>
         <RightSection>
           <AuthButtons>
-          <a href="/LoginPage">LoginPage</a>
-          <a href="/SignUpPage">SignUpPage</a>
+          <a href="/login">Login</a>
+          <a href="/signup">SignUp</a>
           </AuthButtons>
         </RightSection>
       </NavbarWrapper>
@@ -64,7 +65,7 @@ const NavLinks = styled.div`
     text-decoration: none;
     font-weight: bold;
     padding: 0.5rem;
-    /* border-radius: 10%; */
+    border-radius: 10%;
 
     &:hover {
       background-color: lightgray;
@@ -84,14 +85,14 @@ const AuthButtons = styled.div`
   gap: 1rem;
   
 
-  button {
+  a {
     color: #fff;
     background-color: transparent;
     border: none;
     cursor: pointer;
     font-weight: bold;
     padding: 0.5rem;
-    /* border-radius: 10%; */
+    border-radius: 10%;
 
     &:hover {
       background-color: lightgray;
