@@ -13,7 +13,7 @@
 
  <h3>logo :"EduSync"</h3>
 
- <img width="300" height="300" alt="Screenshot_110" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT-c5NJJSxHqPEZhZrlnwiUUkY5smYZ4GVseIXPJb8nBoua1t_r"> 
+ <img width="300" height="250" alt="Screenshot_110" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT-c5NJJSxHqPEZhZrlnwiUUkY5smYZ4GVseIXPJb8nBoua1t_r"> 
 
  ## 🌐 Deployed Link : 
 
@@ -46,11 +46,6 @@ Rest assured, your personal information is safeguarded with the highest level of
 ### Homepage
 <img width="950" alt="Screenshot_110" src="./frontend/src/Assets/homepage.png">
 <!-- <img width="950" alt="Screenshot_117" src="https://github.com/Anburaj07/deluxe-change-1738/assets/123880321/9af84f84-074c-473f-bde1-f8c7596d7c44"> -->
-
-
-### Register/Login
-<img width="950" alt="Screenshot_111" src="https://github.com/Anburaj07/deluxe-change-1738/assets/123880321/6c0d834f-6d13-4449-b250-5bbaadf59071">
-<img width="950" alt="Screenshot_111" src="https://github.com/Anburaj07/deluxe-change-1738/assets/123880321/5cc26f15-b0a5-42bb-b581-d9be616ee898">
 
 
 ### Courses
